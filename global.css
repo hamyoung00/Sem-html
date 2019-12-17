@@ -166,7 +166,13 @@ form{
     max-width: 500px;
     margin: 0 auto 100px;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    margin-left: 370px;
+    padding: 10px 10px 10px 10px;
+  background: coral;
+  
+    
     
 }
 form > div{
@@ -177,12 +183,26 @@ form > div:nth-child(3){
 }
 
 input[type="submit"]{
-    border-radius: 15pc;
-    margin-left: 50px;
+    border-radius: 5pc;
+    margin-left: 100px;
+    margin-top: 15px;
+   padding: 4px ;
+    width:190px;
+    background: dimgray;
+    border: dimgray;
+    color: ghostwhite;
+
+    
    
 }
 input[type="submit"]:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     transition: .25s;
+    
+}
+label{
+    color: black;
+    text-transform: capitalize;
+   font-weight: bold;
 }
 
